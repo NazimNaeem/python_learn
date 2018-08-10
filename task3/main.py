@@ -75,25 +75,47 @@ import datetime,time
 # print("Coming Sunday is on :" + str(sun))
 
 # #===================================================================================================================
-# # - How get previous any day from current date .
+# # - How get previous  day from current date .
 # #===================================================================================================================
 
-# today = datetime.date.today()
-# sun = today-datetime.timedelta(today.isoweekday())
-# mon=today - datetime.timedelta(days=today.isoweekday()-1)
-# tues=today - datetime.timedelta(days=today.isoweekday()-2)
-# wed=today - datetime.timedelta(days=today.isoweekday()-3)
-# thurs=today - datetime.timedelta(days=today.isoweekday()-4)
-# # print(sun)
-# # print(mon)
-# print(tues)
-# print(wed)
-# print(thurs)
-  
-# print(index)
-# print(str(datetime.timedelta(days=today.isoweekday() + 2)))
-# friday = today - datetime.timedelta(days=today.isoweekday() + 2)
-# print(friday)
+# def Previous_Day(previous):
+# 	today = datetime.datetime.today()
+# 	previous=previous.title()
+# 	for previous_day in range(1,8):
+# 		day= today - datetime.timedelta(days=previous_day)
+# 		result=day.strftime("%a")
+# 		if(result==previous):
+# 			print(day.strftime("%Y-%m-%d"))
+
+# previous=input("Enter first three character of any day :")
+# Previous_Day(previous)
+# #===================================================================================================================
+# # - How get coming  day from current date .
+# #===================================================================================================================
+
+def Coming_Day(coming_day):
+	today = datetime.datetime.today()
+	coming_day=coming_day.title()
+	for coming_days in range(1,8):
+		day= today + datetime.timedelta(days=coming_days)
+		result=day.strftime("%a")
+		if(result==coming_day):
+			print(day.strftime("%Y-%m-%d"))
+
+coming_day=input("Enter first three character of any day :")
+Coming_Day(coming_day)
+
+
+
+# today = datetime.datetime.today()
+# coming_day=input("Enter first three character of any day :")
+# coming_day=coming_day.title()
+# for coming_days in range(1,8):
+# 	day= today + datetime.timedelta(days=coming_days)
+# 	result=day.strftime("%a")	
+# 	if(result==coming_day):
+# 		print(day.strftime("%Y-%m-%d"))
+
 
 
 # #===================================================================================================================
