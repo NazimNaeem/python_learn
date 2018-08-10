@@ -1,0 +1,65 @@
+#=======================================================================
+# - how to read / write json content to a file.
+#=======================================================================
+
+https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/
+
+#==================================================================================================
+# - How to sort json content .
+#==================================================================================================
+
+https://www.daniweb.com/programming/software-development/threads/440559/sorting-json-data-by-keys-value
+
+#==================================================================================================
+# - How to make Get request using python
+#==================================================================================================
+
+https://www.pythonforbeginners.com/requests/using-requests-in-python
+https://github.com/timeline.json
+
+
+#==================================================================================================
+# - How to make Post request using python
+#==================================================================================================
+
+
+https://www.geeksforgeeks.org/get-post-requests-using-python/
+
+
+
+#==================================================================================================
+# how to give custom HTTP / HTTPS headers to a request made by python.
+#==================================================================================================
+
+http://httpbin.org/
+http://httpbin.org/get 
+http://httpbin.org/post
+
+#==================================================================================================
+# - how to check if request sent was failed or successful or redirected.
+#==================================================================================================
+
+http://httpbin.org/#/Status_codes/get_status__codes_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

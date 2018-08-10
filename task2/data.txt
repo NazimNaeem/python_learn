@@ -1,0 +1,28 @@
+{
+    "Employee": [
+        {
+            "age": "20",
+            "city": "Gujrat",
+            "gmail": "nazim.com",
+            "name": "Nazim"
+        },
+        {
+            "age": "19",
+            "city": "lahore",
+            "gmail": "arij.com",
+            "name": "Arij"
+        }
+    ],
+    "Manager": [
+        {
+            "city": "lahore",
+            "gmail": "Fasial.com",
+            "name": "Fasial Sharif"
+        },
+        {
+            "city": "lahore",
+            "gmail": "Ali.com",
+            "name": "Ali Raza"
+        }
+    ]
+}
