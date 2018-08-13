@@ -24,8 +24,10 @@ if not (args.dirpath == ""):
 		os.mkdir(args.dirpath)
 	os.chdir(args.dirpath)
 	for file_name in args.file:
-		file = open(file_name,'w+')
+		if not(os.path.isfile(file_name)):
+			open(file_name,'w+')
 		if(args.write):
+			file = open(file_name,'w+')
 			if not(args.content == 0):
 				if(args.content == 1):
 					args.content = str(args.content)
@@ -35,8 +37,9 @@ if not (args.dirpath == ""):
 			else:
 				print("Enter a content using commad -content")
 		if(args.read):
-			for line in file:
-				print (line + '\n') 
+			file = open(file_name,'r')
+			print (file.readlines())
+			file.close 
 				
 else:
 	print("Enter a directory path using commad -dir path")
