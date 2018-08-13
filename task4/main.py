@@ -1,4 +1,4 @@
-import argparse,os
+import argparse,os,inspect
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-dir", "--dirpath" , help = "Use to get the path of directory",
@@ -18,13 +18,16 @@ parser.add_argument("--read", help = "Use to write in a file",
 
 args = parser.parse_args()
 
-
+ 	
 if not (args.dirpath == ""):
 	if not(os.path.isdir(args.dirpath)):
 		os.mkdir(args.dirpath)
-	os.chdir(args.dirpath)
+	relative_path=os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))# script directory
+	path=os.path.join(relative_path,args.dirpath)
+		
+	os.chdir(path)
 	if(args.file == "" and args.read):
-		for file_name in os.listdir(args.dirpath):
+		for file_name in os.listdir(path):
 			file = open(file_name,'r')
 			print (" from {} : content : {} ".format(file_name,file.readline()))
 			file.close 
