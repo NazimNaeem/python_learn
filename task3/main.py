@@ -32,12 +32,12 @@ import datetime,time
 
 # # Method no: 1
 
-# current_time=datetime.datetime.now().time()
+# current_time = datetime.datetime.now().time()
 # print ("Current Time :" + current_time.strftime("%I:%M:%S"))
 
 # # Method no: 2
 
-# current_time=time.strftime("%H:%M:%S")
+# current_time = time.strftime("%H:%M:%S")
 # print ("Current Time :" + current_time)
 
 # #===================================================================================================================
@@ -80,54 +80,43 @@ import datetime,time
 
 # def Previous_Day(previous):
 # 	today = datetime.datetime.today()
-# 	previous=previous.title()
+# 	previous = previous.title()
 # 	for previous_day in range(1,8):
-# 		day= today - datetime.timedelta(days=previous_day)
-# 		result=day.strftime("%a")
-# 		if(result==previous):
+# 		day = today - datetime.timedelta(days=previous_day)
+# 		result = day.strftime("%a")
+# 		if(result == previous):
 # 			print(day.strftime("%Y-%m-%d"))
 
-# previous=input("Enter first three character of any day :")
+# previous = input("Enter first three character of any day :")
 # Previous_Day(previous)
+
 # #===================================================================================================================
 # # - How get coming  day from current date .
 # #===================================================================================================================
 
-def Coming_Day(coming_day):
-	today = datetime.datetime.today()
-	coming_day=coming_day.title()
-	for coming_days in range(1,8):
-		day= today + datetime.timedelta(days=coming_days)
-		result=day.strftime("%a")
-		if(result==coming_day):
-			print(day.strftime("%Y-%m-%d"))
+# def Coming_Day(coming_day):
+# 	today = datetime.datetime.today()
+# 	coming_day = coming_day.title()
+# 	for coming_days in range(1,8):
+# 		day = today + datetime.timedelta(days=coming_days)
+# 		result = day.strftime("%a")
+# 		if(result == coming_day):
+# 			print(day.strftime("%Y-%m-%d"))
 
-coming_day=input("Enter first three character of any day :")
-Coming_Day(coming_day)
-
-
-
-# today = datetime.datetime.today()
-# coming_day=input("Enter first three character of any day :")
-# coming_day=coming_day.title()
-# for coming_days in range(1,8):
-# 	day= today + datetime.timedelta(days=coming_days)
-# 	result=day.strftime("%a")	
-# 	if(result==coming_day):
-# 		print(day.strftime("%Y-%m-%d"))
-
+# coming_day = input("Enter first three character of any day :")
+# Coming_Day(coming_day)
 
 
 # #===================================================================================================================
 # # - How to add / subtract a certain number of days to current date.
 # #===================================================================================================================
 
-# days=input("Enter the number of days :")
-# oper=input("Enter the operator +/- :")
+# days = input("Enter the number of days :")
+# oper = input("Enter the operator +/- :")
 
-# if(oper=='-'):
+# if(oper == '-'):
 # 	result = datetime.datetime.today() - datetime.timedelta(days=int(days))
-# if (oper=='+'):
+# if (oper == '+'):
 # 	result = datetime.datetime.today() + datetime.timedelta(days=int(days))
 # print(result)
 
@@ -135,12 +124,12 @@ Coming_Day(coming_day)
 # # - How to add / subtract a certain number of hours /  minutes to current date.
 # #===================================================================================================================
 
-# hours=input("Enter the number of hours :")
-# minutes=input("Enter the number of minutes :")
-# oper=input("Enter the operator +/- :")
-# if(oper=='-'):
+# hours = input("Enter the number of hours :")
+# minutes = input("Enter the number of minutes :")
+# oper = input("Enter the operator +/- :")
+# if(oper == '-'):
 # 	result = datetime.datetime.today() - datetime.timedelta(hours=int(hours), minutes=int(minutes))
-# if(oper=='+'):
+# if(oper == '+'):
 # 	result = datetime.datetime.today() + datetime.timedelta(hours=int(hours), minutes=int(minutes))
 
 # print(result.strftime('%H:%M %p'))
@@ -149,8 +138,8 @@ Coming_Day(coming_day)
 # # - How to  compare two dates.
 # #===================================================================================================================
 
-# date=input("Enter the date in format YYYY-MM-DD :")
-# date= datetime.datetime.strptime(date, '%Y-%m-%d')
+# date = input("Enter the date in format YYYY-MM-DD :")
+# date = datetime.datetime.strptime(date, '%Y-%m-%d')
 # today_date = datetime.datetime.today()
 # if(date > today_date):
 # 	print("Your enter date is greater than today date")
@@ -173,7 +162,7 @@ Coming_Day(coming_day)
 # timestamp_in_second = datetime.datetime.now().timestamp()
 # print("Timestamp in second :" + str(timestamp_in_second))
 
-# date_object=datetime.datetime.fromtimestamp(timestamp_in_second)
+# date_object = datetime.datetime.fromtimestamp(timestamp_in_second)
 # print("Date_object :" + str(date_object))
 
 # #===================================================================================================================
@@ -184,11 +173,11 @@ Coming_Day(coming_day)
 # check = input('In seconds or minutes  s/m: ')
 # num = float(num)
 
-# if not(check=="m" or check =="s"):
+# if not(check == "m" or check == "s"):
 # 	print("Enter s for second or m for minutes")
 	
-# elif(check=="m"):
-# 	num=num*60
+# elif(check == "m"):
+# 	num = num*60
 # print('Before: %s' % time.ctime())
 # time.sleep(num)
 # print('After: %s\n' % time.ctime())
@@ -197,9 +186,9 @@ Coming_Day(coming_day)
 # # - How to remain on sleep till certain time..
 # #===================================================================================================================
 # today_date = datetime.datetime.today()
-# result=today_date.strftime('%Y-%m-%d ')
-# date= datetime.datetime.strptime(result + "12-08", '%Y-%m-%d %H-%M')
-# sleep_time=date-today_date
+# result = today_date.strftime('%Y-%m-%d ')
+# date = datetime.datetime.strptime(result + "12-08", '%Y-%m-%d %H-%M')
+# sleep_time = date-today_date
 
 # print('Before: %s' % time.ctime())
 # time.sleep(sleep_time.total_seconds())
