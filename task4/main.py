@@ -20,35 +20,24 @@ args = parser.parse_args()
 
 
 if not (args.dirpath == ""):
-	
-	if(os.path.isdir(args.dirpath)):
-		# print(args.dirpath)
-		os.chdir(args.dirpath)
-		if(args.file == ""):
-			print("Enter a file name using commad -file filename")
-		else:
-			for file_name in args.file:
-			
-				if(os.path.isfile(file_name)):
-					if(args.write):
-						file = open(file_name,'w+')
-						if not(args.content == 0):
-
-							if(args.content == 1):
-								args.content = str(args.content)
-								args.content = "This is a default string"
-							file.write(args.content + '\n')
-							file.close()
-						else:
-							print("Enter a content using commad -content")
-					if(args.read):
-						file = open(file_name, 'r') 
-						for line in file: 
-							print (line + '\n') 
-				else:
-					print("File {} does not exist".format(file_name))
-	else:
-		print ("Directory does not exist")
+	if not(os.path.isdir(args.dirpath)):
+		os.mkdir(args.dirpath)
+	os.chdir(args.dirpath)
+	for file_name in args.file:
+		file = open(file_name,'w+')
+		if(args.write):
+			if not(args.content == 0):
+				if(args.content == 1):
+					args.content = str(args.content)
+					args.content = "This is a default string"
+				file.write(args.content + '\n')
+				file.close()
+			else:
+				print("Enter a content using commad -content")
+		if(args.read):
+			for line in file:
+				print (line + '\n') 
+				
 else:
 	print("Enter a directory path using commad -dir path")
 	
