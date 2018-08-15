@@ -1,59 +1,67 @@
-import argparse,os,inspect
+import os
+import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-dir", "--dirpath" , help = "Use to get the path of directory",
-                     type = str, default = "")
+parser.add_argument("dir", help="Use to get the path of directory")
 
-parser.add_argument("-file", "--file", help = "Use to get the file name",
-					 default = "" , nargs = "+")
+parser.add_argument("-file", help="Use to get the file name",
+                    default=list() , nargs="+")
 
-parser.add_argument("--write", help = "Use to write in a file",
-					 action = "store_true")
+parser.add_argument("-content", help="Use to write text in a file", 
+                    nargs="?", type=str, default='my default writing content.')
 
-parser.add_argument("-content", "--content", help = "Use to write text in a file", 
-					 const = 1, nargs = "?", default = 0)
+parser.add_argument("--write", help="Use to write in a file",
+                    action="store_true")
 
-parser.add_argument("--read", help = "Use to write in a file",
-					 action = "store_true")
+parser.add_argument("--read", help="Use to read in a file",
+                    action="store_true")
 
 args = parser.parse_args()
 
- 	
-if not (args.dirpath == ""):
-	if not(os.path.isdir(args.dirpath)):
-		os.mkdir(args.dirpath)
-	relative_path=os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))# script directory
-	path=os.path.join(relative_path,args.dirpath)
-		
-	os.chdir(path)
-	if(args.file == "" and args.read):
-		for file_name in os.listdir(path):
-			file = open(file_name,'r')
-			print (" from {} : content : {} ".format(file_name,file.readline()))
-			file.close 
-	elif(args.file == "" and args.write):
-		print("Enter a file name using command -file filename")
-			
+if __name__ == '__main__':
 
-	for file_name in args.file:
-		if not(os.path.isfile(file_name)):
-			open(file_name,'w+')
-		if(args.write):
-			file = open(file_name,'w+')
-			if not(args.content == 0):
-				if(args.content == 1):
-					args.content = str(args.content)
-					args.content = "This is a default string"
-				file.write(args.content + '\n')
-				file.close()
-			else:
-				print("Enter a content using commad -content")
-		if(args.read):
-			file = open(file_name,'r')
-			for content_in_file in file:
-				print (" from {} : content : {} ".format(file_name,content_in_file))
-				file.close 
-				
-else:
-	print("Enter a directory path using commad -dir path")
-	
+  print(args.__dict__, end='\n\n') 
+
+  args.dir = os.path.abspath(args.dir)
+  if not os.path.isdir(args.dir):
+    os.mkdir(args.dir)
+
+  if (not args.file and args.read):
+    for file_name in os.listdir(args.dir):
+      file = open(os.path.join(args.dir, file_name), 'r')
+      
+      content = file.read().strip('\n')
+      if not content:
+        content = 'none found'
+
+      print ("%s: %s" % (file_name, content))
+      file.close
+
+  elif (args.file and args.read):
+    for filename in args.file:
+      fullname = os.path.abspath(os.path.join(args.dir, filename))
+
+      if os.path.isfile(fullname):
+        file = open(fullname, 'r')
+        content = file.read()
+        file.close()
+        print('%s: %s' % (filename, content))
+      else:
+        print('%s: Not found.' % (filename))
+
+
+  if args.write:
+
+    if not args.file:
+      print('No file was specified for writing...')
+
+    for file_name in args.file:
+      fullname = os.path.abspath(os.path.join(args.dir, file_name))
+
+      if not args.content:
+        args.content = 'default string of content is here.'
+
+      file = open(fullname, 'w')
+      file.write(args.content + '\n')
+      file.close()
+      print('Content written to file: %s' % (file_name))
