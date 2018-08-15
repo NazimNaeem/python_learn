@@ -1,7 +1,7 @@
 
 # Import classes from your brand new package
-from Animals import mammals
-from Animals import birds
+from Animals.mammals import Mammals
+from Animals.birds import Birds
  
 # Create an object of Mammals class & call a method of it
 myMammal = Mammals()
