@@ -297,7 +297,7 @@ l1 = Line(4)
 # - how to import a method from other script?
 # ===================================================================================================================
 
-#from test import index  #It is not working
-#from index import Sum   # Working
-# obj = Sum()
-# obj.add(1,2)
+from test import index  
+from index import Sum   
+obj = Sum()
+obj.add(1,2)
