@@ -10,3 +10,12 @@ https://code.tutsplus.com/tutorials/an-introduction-to-pythons-flask-framework--
 #===============================================================================================================
 
 https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+
+
+#===============================================================================================================
+								How to get json data from post request
+#===============================================================================================================
+
+https://www.programcreek.com/python/example/71541/flask.request.json
+
+https://scotch.io/bar-talk/processing-incoming-request-data-in-flask
