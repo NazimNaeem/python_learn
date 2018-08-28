@@ -1,0 +1,23 @@
+https://docs.python.org/3.4/library/subprocess.html?highlight=subprocess#replacing-os-popen-os-popen2-os-popen3
+
+#============================================================================================================
+# - how to run an external command in background (non-blocking call, 
+#	which means the code goes ahead without waiting for output.)
+#============================================================================================================
+https://code.i-harness.com/en/q/12402a
+
+#============================================================================================================
+# - how to run a faulty external command and catch its error.
+#============================================================================================================
+https://crashcourse.housegordon.org/python-subprocess.html
+
+#============================================================================================================
+# - how to show live output of external command on console (using python). 
+#============================================================================================================
+https://zaiste.net/realtime_output_from_shell_command_in_python/
+
+#============================================================================================================
+# -Understanding og Stdin,stdout,stderr. 
+#============================================================================================================
+
+http://www.bogotobogo.com/python/python_subprocess_module.php
