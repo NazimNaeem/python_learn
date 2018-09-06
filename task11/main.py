@@ -24,6 +24,21 @@ tasks = [
         'done': False
     }
 ]
+#========================================================================================
+# Funtion to authenticate the user
+#========================================================================================
+
+auth = HTTPBasicAuth()
+@auth.get_password
+def get_password(username):
+    conn = create_connection()
+    cur = conn.cursor()
+    cur.execute('SELECT * FROM login_tb WHERE username = ?',(username,) )
+    rows = cur.fetchall()
+    for row in rows:
+        if username == row[1]:
+            return row[2]
+        return None
 
 #===========================================================================================================
 # - How to  GET all record  through json
