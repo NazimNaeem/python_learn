@@ -1,0 +1,93 @@
+# ===================================================================================
+				 Task #1
+# ===================================================================================
+
+# Write a function to fetch all files in a directory.Keep them in a list and sort the list 	   alphabaticaly and add _edited 
+# with each file name and create new subfolder and store these newly name files in that folder 
+# open the edited files and write the its name as its content and then close it.
+# there must be a new line at the end of file.
+
+# ===================================================================================
+				 Task #2
+# ===================================================================================
+
+# - Learn json (builtin library)
+
+# ===================================================================================
+				 Task #3
+# ===================================================================================
+
+# - Learn look 2 python libraries:  - datetime & time
+
+# ===================================================================================
+				 Task #4
+# ===================================================================================
+
+# - Learn `argparse` library: https://docs.python.org/3/howto/argparse.html
+
+# ===================================================================================
+				 Task #5
+# ===================================================================================
+
+# - Revise the concept(see in task5 folder for complete description) 
+
+# ===================================================================================
+				 Task #6
+# ===================================================================================
+
+# - How to define abstract class and how to use them
+# - What is diamond problem and how to remediate it in python).
+
+# ===================================================================================
+				 Task #7
+# ===================================================================================
+
+# - Introduction to Api
+
+# ===================================================================================
+				 Task #8
+# ===================================================================================
+
+# - Introduction to request and beautifulsoup library
+
+# ===================================================================================
+				 Task #9
+# ===================================================================================
+
+# - Learn subprocess library(how to run shell commad through script)
+
+# ===================================================================================
+				 Task #10
+# ===================================================================================
+
+# - Implementation of advance concept of python (Decorators,Property,Gernerator)
+
+# ===================================================================================
+				 Task #11
+# ===================================================================================
+
+# - Create an api that authenticated users can access only. Api can create new users and 
+    then should allow access only if user has provided authentication in requests.
+    Otherwise,api should give error saying you are not authorized to access the api.
+
+# ===================================================================================
+				 Task #12
+# ===================================================================================
+
+# - Build further by making an endpoint where you can specify a site url in GET request 
+    and you fetch that url. If url is valid, get all the links present in that page.
+    Return that list of urls as json
+
+# - If a parameter source=true is given to same endpoint along with what url to fetch, 
+    then fetch the source page of provided url and send it in json as a string.
+
+# ===================================================================================
+				 Task #13
+# ===================================================================================
+
+# - How to authenticate user through Json Web Token using built in library
+
+#=============================================================================================================
+				 Task #14
+#=============================================================================================================
+# - How to create Json Web token through pyjwt (JWT) LIBRARY
