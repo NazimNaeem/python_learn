@@ -1,3 +1,7 @@
+#=============================================================================================================
+# - How to create Json Web token through pyjwt (JWT) LIBRARY
+#=============================================================================================================
+
 import jwt
 import sqlite3
 import requests
@@ -84,9 +88,6 @@ def user_login():
         return "User does not exist"
     
     if verify_hash(request.form['password'],current_user[2]):                
-        payload = {'username': current_user[1],
-                    'password':current_user[2]
-                    }
         token = jwt.encode({'username': current_user[1],'exp':datetime.datetime.utcnow() + datetime.timedelta(hours=6)},app.config['SECRET_KEY'])
         return jsonify({'token' :token.decode('UTF-8')})
     return make_response('Could not verify', 401,{'WWW-Authenticate':'Basic realm="Login Required"'})
@@ -123,9 +124,16 @@ def get_url(url):
             url_list.append(anchor_tag.get("href"))
         return jsonify(url_list)
 
- 
+#========================================================================================
+# Funtion to encode the password of user
+#========================================================================================
+
 def generate_hash(password):
     return sha256.hash(password)
+
+#========================================================================================
+# Funtion to decode the password of user
+#========================================================================================
 
 def verify_hash(password, hash):
     return sha256.verify(password, hash)
