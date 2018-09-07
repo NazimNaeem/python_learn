@@ -1,5 +1,6 @@
 import sqlite3
 import requests
+import jwt
 from sqlite3 import Error
 from flask import abort
 from flask import Flask
