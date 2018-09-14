@@ -1,0 +1,25 @@
+#===================================================================================
+# - Difference between different scraping library
+#===================================================================================
+
+https://elitedatascience.com/python-web-scraping-libraries
+
+#===================================================================================
+# - Prerequisite
+#===================================================================================
+
+# - Create virtualenv
+# - Install selenium with pip latest python version
+# - Install geckodriver  latest in same directory in which selenium installed
+
+#===================================================================================
+# - Selenium Documentation
+#===================================================================================
+
+https://selenium-python.readthedocs.io/
+
+#===================================================================================
+# - Crawling with selenium
+#===================================================================================
+ 
+https://www.youtube.com/watch?v=zjo9yFHoUl8&t=0s&list=PL5tcWHG-UPH1fnJw-BvBiiiPUPm1LUKsm&index=3
