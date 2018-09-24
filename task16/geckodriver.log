@@ -2010,3 +2010,697 @@ JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtoo
 [Parent 15308, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 1536901276123	Marionette	INFO	Stopped listening on port 44905
 1536901276225	Marionette	INFO	Stopped listening on port 41163
+1536903861447	geckodriver	INFO	geckodriver 0.21.0
+1536903861454	geckodriver	INFO	Listening on 127.0.0.1:34871
+1536903862455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mVta8m19cT0u"
+1536903865827	Marionette	INFO	Listening on port 40021
+1536903865870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536903865927	Marionette	DEBUG	[2147483649] Frame script loaded
+1536903865928	Marionette	DEBUG	[2147483649] Frame script registered
+1536903865950	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536903868992	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536903872328	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536903875701	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536903875712	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536903876332	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1536903876615	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536903877108	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536903877137	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1536903877137	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536903877137	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536903877138	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536903877138	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536903877139	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536903877140	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536903877140	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536903877141	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536903877142	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536903877142	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536903877142	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536903877143	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1536903881267	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1536903881728	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483709
+1536903881922	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1536903881964	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483700
+1536903882511	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1536903882514	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483722
+1536903882617	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1536903882678	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483693
+1536903882806	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1536903882916	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1536903882932	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1536903882933	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483716
+1536903882934	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483717
+1536903882934	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483718
+1536903882934	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483719
+1536903882934	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483720
+1536903882935	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483721
+1536903882935	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483723
+1536903882935	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483711
+1536903883444	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483741
+1536903883470	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483742
+1536903890762	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536903890914	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536903892613	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.applebees.com/en/locations
+1536903892621	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536903893050	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations?searchQuery=lahore
+1536903893057	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483690
+1536903893058	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483685
+1536903893058	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483747
+1536903894194	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483752
+1536903894204	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483754
+1536903894216	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483755
+1536903896796	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations?searchQuery=lahore
+1536903929914	Marionette	INFO	Stopped listening on port 40021
+1536903935076	geckodriver	INFO	geckodriver 0.21.0
+1536903935084	geckodriver	INFO	Listening on 127.0.0.1:42989
+1536903936084	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6c7uKPEvSDBL"
+1536903939333	Marionette	INFO	Listening on port 43825
+1536903939411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536903939465	Marionette	DEBUG	[2147483649] Frame script loaded
+1536903939466	Marionette	DEBUG	[2147483649] Frame script registered
+1536903939542	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536903942069	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536903944382	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536903948296	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536903948304	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536903949190	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536903949681	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536903949685	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1536903949685	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536903949685	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536903949685	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536903949686	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1536903949686	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1536903954370	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1536903954386	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483692
+1536903956030	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483682
+1536903956032	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1536903956035	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1536903956492	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483716
+1536903956493	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483717
+1536903956521	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1536903956522	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483702
+1536903956523	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483701
+1536903956527	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483706
+1536903956528	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1536903956742	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1536903956748	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536903957017	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1536903957018	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1536903957018	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483704
+1536903957025	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536903957026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483700
+1536903957026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483703
+1536903957026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1536903957080	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536903957221	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536903958165	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536903959137	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.applebees.com/en/locations
+1536903959143	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536903959555	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536903959555	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536903959578	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations/results?searchQuery=lahore
+1536903960739	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483736
+1536903960748	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483738
+1536903960767	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483739
+1536903962084	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations/results?searchQuery=lahore
+[Parent 17561, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1536903971004	Marionette	INFO	Stopped listening on port 43825
+1536903973412	geckodriver	INFO	geckodriver 0.21.0
+1536903973416	geckodriver	INFO	Listening on 127.0.0.1:48539
+1536903974420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z9aY5HieoqlL"
+1536903977818	Marionette	INFO	Listening on port 40633
+1536903977857	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536903977931	Marionette	DEBUG	[2147483649] Frame script loaded
+1536903977964	Marionette	DEBUG	[2147483649] Frame script registered
+1536903978021	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536903981081	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536903983792	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536903986059	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536903986061	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536903986701	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536903987183	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536903992508	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1536903993953	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536903995068	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483692
+1536903996085	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483706
+1536903996085	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483707
+1536903996543	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536903996572	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536903996718	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483688
+1536903996726	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483693
+1536903996759	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536903996846	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536903996958	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536903997457	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483686
+1536903997458	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1536903997458	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1536903997458	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1536903997459	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536903997500	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536903997504	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536903997504	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483690
+1536903997505	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1536904001562	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904001704	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904003313	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.applebees.com/en/locations
+1536904003319	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904003730	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations?searchQuery=lahore
+1536904003749	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483703
+1536904003749	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1536904003750	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1536904003750	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536904004705	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483730
+1536904004763	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483732
+1536904004813	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483733
+1536904006049	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations?searchQuery=lahore
+1536904017802	Marionette	INFO	Stopped listening on port 40633
+1536904024661	geckodriver	INFO	geckodriver 0.21.0
+1536904024668	geckodriver	INFO	Listening on 127.0.0.1:53373
+1536904025668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8NEUh6fQnf0J"
+1536904028896	Marionette	INFO	Listening on port 41463
+1536904029004	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536904029081	Marionette	DEBUG	[2147483649] Frame script loaded
+1536904029091	Marionette	DEBUG	[2147483649] Frame script registered
+1536904029119	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536904032012	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536904035986	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904039077	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904039086	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904039898	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904041061	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904041069	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1536904041077	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536904041077	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536904041078	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536904044692	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1536904045215	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1536904045528	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1536904045629	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536904046538	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536904046543	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536904046544	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1536904046544	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536904046546	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483701
+1536904047537	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1536904047538	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1536904047538	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483700
+1536904047539	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1536904047539	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483702
+1536904047985	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483719
+1536904047986	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483718
+1536904048015	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536904048026	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1536904048027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1536904048027	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1536904048028	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1536904052359	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904052511	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904053411	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904054570	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.applebees.com/en/locations
+1536904054574	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904054983	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536904054984	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1536904055013	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations/results?searchQuery=lahore
+1536904055936	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483731
+1536904055939	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483733
+1536904055947	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483734
+1536904057470	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations/results?searchQuery=lahore
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 18074, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1536904064126	Marionette	INFO	Stopped listening on port 41463
+1536904066829	geckodriver	INFO	geckodriver 0.21.0
+1536904066836	geckodriver	INFO	Listening on 127.0.0.1:40113
+1536904067837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gPCCI9cJxZk9"
+1536904071058	Marionette	INFO	Listening on port 36069
+1536904071173	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536904071249	Marionette	DEBUG	[2147483649] Frame script loaded
+1536904071253	Marionette	DEBUG	[2147483649] Frame script registered
+1536904071292	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536904074278	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536904077310	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904080996	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904080998	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904081607	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904082096	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904082112	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536904086821	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536904088151	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483685
+1536904088161	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536904089162	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483690
+1536904089166	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1536904089634	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536904089880	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536904089880	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536904089887	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536904089888	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483703
+1536904090158	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536904090190	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536904090201	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1536904090202	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1536904090202	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1536904090203	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1536904090203	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483700
+1536904090204	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483701
+1536904090204	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483702
+1536904090204	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483704
+1536904090205	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1536904092592	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904092746	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904094288	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.applebees.com/en/locations
+1536904094294	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904094707	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations?searchQuery=lahore
+1536904094713	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1536904094714	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1536904094714	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1536904094715	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536904095645	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483726
+1536904095649	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483728
+1536904095658	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483729
+1536904097291	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations?searchQuery=lahore
+[Parent 18307, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536904129219	Marionette	INFO	Stopped listening on port 36069
+1536904134636	geckodriver	INFO	geckodriver 0.21.0
+1536904134643	geckodriver	INFO	Listening on 127.0.0.1:45169
+1536904135644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.e2sqS3xeRA7Z"
+1536904138925	Marionette	INFO	Listening on port 36145
+1536904138959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536904139015	Marionette	DEBUG	[2147483649] Frame script loaded
+1536904139018	Marionette	DEBUG	[2147483649] Frame script registered
+1536904139098	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536904141113	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536904145010	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904149895	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904149897	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904150771	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904151222	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904151241	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536904156009	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483685
+1536904156056	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536904157442	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1536904157585	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483708
+1536904157709	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483709
+1536904157796	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536904157939	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536904158043	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536904158060	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1536904158215	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536904158218	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1536904158313	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536904158453	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483693
+1536904158526	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536904158545	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1536904158817	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536904158822	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1536904158823	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483692
+1536904158823	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1536904158823	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1536904158823	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1536904162751	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904162910	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904164493	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.applebees.com/en/locations
+1536904164497	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904164860	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations?searchQuery=lahore
+1536904164884	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1536904164884	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1536904164884	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1536904164884	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536904166013	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483731
+1536904166023	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483733
+1536904166031	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483734
+1536904168114	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations?searchQuery=lahore
+1536904186315	geckodriver	INFO	geckodriver 0.21.0
+1536904186321	geckodriver	INFO	Listening on 127.0.0.1:53357
+1536904187323	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BZappieesmsE"
+1536904190483	Marionette	INFO	Listening on port 35649
+1536904190535	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536904190586	Marionette	DEBUG	[2147483649] Frame script loaded
+1536904190588	Marionette	DEBUG	[2147483649] Frame script registered
+1536904190607	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536904193555	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536904196964	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904201478	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1536904201880	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904201892	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904203322	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904203795	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536904203795	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1536904203796	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536904203796	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536904203797	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536904203797	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536904203798	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536904203798	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536904203798	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536904203799	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1536904203800	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1536904203800	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1536904203801	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1536904203801	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1536904203801	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483690
+1536904203802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1536904203802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483692
+1536904203803	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483693
+1536904203803	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1536904203804	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1536904203804	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1536904203805	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1536904203805	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1536904203806	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483706
+1536904203811	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904209864	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483735
+1536904210102	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483724
+1536904210323	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483720
+1536904210324	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483739
+1536904210328	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483740
+1536904210578	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483718
+1536904210721	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904214031	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483792
+1536904214032	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483793
+1536904214105	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 18835, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1536904225865	Marionette	INFO	Stopped listening on port 36145
+1536904225893	Marionette	INFO	Stopped listening on port 35649
+1536904229067	geckodriver	INFO	geckodriver 0.21.0
+1536904229074	geckodriver	INFO	Listening on 127.0.0.1:47997
+1536904230072	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Rp2jLmJ0wVAI"
+1536904233418	Marionette	INFO	Listening on port 36907
+1536904233489	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536904233564	Marionette	DEBUG	[2147483649] Frame script loaded
+1536904233568	Marionette	DEBUG	[2147483649] Frame script registered
+1536904233617	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536904236443	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536904240562	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904246361	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1536904248125	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536904249380	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483704
+1536904249385	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1536904249386	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1536904249778	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904249787	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904250974	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904253260	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483685
+1536904253260	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1536904253261	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536904253262	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536904253262	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1536904253262	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536904253263	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536904253263	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536904253263	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536904253263	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536904253264	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536904253264	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536904253264	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483688
+1536904253265	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1536904253265	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483690
+1536904253265	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1536904253265	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483692
+1536904253266	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483693
+1536904253266	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1536904253266	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1536904253311	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904255078	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483726
+1536904255404	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483722
+1536904255886	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483723
+1536904255897	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483727
+1536904255898	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483725
+1536904255898	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483724
+1536904256011	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483720
+1536904256138	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483721
+1536904256140	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483715
+1536904256140	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483746
+1536904256666	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483744
+1536904256666	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483750
+1536904256927	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904260333	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536904337436	geckodriver	INFO	geckodriver 0.21.0
+1536904337442	geckodriver	INFO	Listening on 127.0.0.1:51889
+1536904338443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.n91XGYAOpgKk"
+1536904341604	Marionette	INFO	Listening on port 40635
+1536904341654	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536904341730	Marionette	DEBUG	[2147483649] Frame script loaded
+1536904341743	Marionette	DEBUG	[2147483649] Frame script registered
+1536904341777	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536904344295	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536904346441	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904349273	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904349283	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904350087	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904350555	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904350559	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1536904350559	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536904350559	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536904350559	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536904353542	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1536904353811	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1536904354273	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536904354288	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1536904354503	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483700
+1536904354525	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536904354708	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1536904354758	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1536904354902	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536904354926	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1536904354934	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483701
+1536904354964	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1536904355020	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536904355021	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1536904355089	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536904355170	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1536904355173	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536904355194	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1536904355194	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483689
+1536904355666	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483726
+1536904355747	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483727
+1536904355936	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904359029	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904359809	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.applebees.com/en/locations
+1536904359810	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904360226	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations?searchQuery=lahore
+1536904360238	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536904360238	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1536904361177	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483735
+1536904361195	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483737
+1536904361196	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483738
+1536904365311	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations?searchQuery=lahore
+1536904385576	geckodriver	INFO	geckodriver 0.21.0
+1536904385582	geckodriver	INFO	Listening on 127.0.0.1:34439
+1536904386583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ahsexM2FMV3O"
+1536904389833	Marionette	INFO	Listening on port 44355
+1536904389898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536904389975	Marionette	DEBUG	[2147483649] Frame script loaded
+1536904389984	Marionette	DEBUG	[2147483649] Frame script registered
+1536904390040	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536904392962	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536904395980	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904400690	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1536904401035	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904401041	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904401979	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904402866	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904402884	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1536904402885	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536904402885	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536904402886	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1536904402886	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1536904402886	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1536904402886	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1536904402887	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483682
+1536904402887	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483683
+1536904402888	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483684
+1536904402889	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483685
+1536904402889	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536904402890	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536904402890	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536904402891	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536904402891	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536904402892	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536904402892	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1536904402892	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1536904402893	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1536904402893	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1536904406531	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483717
+1536904407780	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483727
+1536904408250	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483713
+1536904408263	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483718
+1536904408519	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483712
+1536904408727	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483740
+1536904408775	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483714
+1536904408915	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483753
+1536904408924	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483754
+1536904409096	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483736
+1536904409096	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483735
+1536904409097	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483737
+1536904409098	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483711
+1536904409099	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483715
+1536904409099	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483716
+1536904409109	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1536904409110	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483734
+1536904409110	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483738
+1536904409110	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483739
+1536904409110	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483741
+1536904409111	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483729
+1536904409446	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904412761	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483783
+1536904412761	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483784
+1536904412829	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536904513609	geckodriver	INFO	geckodriver 0.21.0
+1536904513616	geckodriver	INFO	Listening on 127.0.0.1:50497
+1536904514615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.q2jYHbr8BfJc"
+1536904517793	Marionette	INFO	Listening on port 46563
+1536904517829	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536904517879	Marionette	DEBUG	[2147483649] Frame script loaded
+1536904517880	Marionette	DEBUG	[2147483649] Frame script registered
+1536904517900	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536904520753	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536904523789	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904529567	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1536904529575	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904530331	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1536904530460	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1536904530930	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1536904530954	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536904530954	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536904530955	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536904530955	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1536904530955	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1536904530956	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1536904530956	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536904530956	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536904530957	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536904530958	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1536904530959	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1536904530959	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1536904535956	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483707
+1536904535977	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483697
+1536904537279	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483721
+1536904537715	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483731
+1536904537716	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483732
+1536904537731	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483693
+1536904537741	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1536904537910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483717
+1536904537933	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483722
+1536904537936	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483691
+1536904538209	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483715
+1536904538363	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483716
+1536904538381	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483692
+1536904538448	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483718
+1536904538448	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1536904538753	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483695
+1536904538803	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483720
+1536904538807	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483696
+1536904538809	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483687
+1536904538810	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483719
+1536904538810	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483709
+1536904539360	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1536904542723	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483767
+1536904542723	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483768
+1536904542783	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536904594669	Marionette	DEBUG	[4294967297] Frame script loaded
+1536904594670	Marionette	DEBUG	[4294967297] Frame script registered
+1536904594703	Marionette	DEBUG	[4294967299] Frame script loaded
+1536904594704	Marionette	DEBUG	[4294967299] Frame script registered
+1536904596228	Marionette	DEBUG	[4294967303] Frame script loaded
+1536904596229	Marionette	DEBUG	[4294967303] Frame script registered
+1536904603503	Marionette	DEBUG	[4294967297] Frame script loaded
+1536904603504	Marionette	DEBUG	[4294967297] Frame script registered
+1536904603537	Marionette	DEBUG	[4294967299] Frame script loaded
+1536904603537	Marionette	DEBUG	[4294967299] Frame script registered
+1536904619783	Marionette	INFO	Stopped listening on port 40635
+[Parent 19870, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1536904623794	Marionette	INFO	Stopped listening on port 46563
+[Parent 19604, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1536904626181	Marionette	INFO	Stopped listening on port 44355
+[Parent 19071, Gecko_IOThread] WARNING: pipe error (95): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1536904627935	Marionette	INFO	Stopped listening on port 36907
+1537159328581	geckodriver	INFO	geckodriver 0.21.0
+1537159328589	geckodriver	INFO	Listening on 127.0.0.1:52965
+1537159329587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Kj10MtZBE6WD"
+1537159333015	Marionette	INFO	Listening on port 41035
+1537159333099	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537159333172	Marionette	DEBUG	[2147483649] Frame script loaded
+1537159333192	Marionette	DEBUG	[2147483649] Frame script registered
+1537159333239	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537159336062	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537159339369	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1537159343805	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.applebees.com/en/locations
+1537159343815	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1537159344771	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1537159344776	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1537159345161	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1537159345162	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1537159345163	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1537159345164	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1537159345165	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1537159345291	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.applebees.com/en/locations
+1537159348253	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483692
+1537159350836	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483704
+1537159350836	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483681
+1537159350920	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483714
+1537159350921	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483715
+1537159352118	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1537159352118	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483682
+1537159352119	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483705
+1537159352119	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483700
+1537159352607	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1537159352617	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1537159352627	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1537159352823	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1537159352823	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1537159352826	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1537159352826	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483698
+1537159352827	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1537159352827	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483701
+1537159352827	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483702
+1537159352827	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483703
+1537159352827	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483694
+1537159354183	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.applebees.com/en/locations
+1537159357517	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483747
+1537159357517	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483748
+1537159357586	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1537159402566	Marionette	DEBUG	[4294967297] Frame script loaded
+1537159402567	Marionette	DEBUG	[4294967297] Frame script registered
+1537159402607	Marionette	DEBUG	[4294967299] Frame script loaded
+1537159402607	Marionette	DEBUG	[4294967299] Frame script registered
+[Parent 8856, Gecko_IOThread] WARNING: pipe error (38): Connection reset by peer: file /build/firefox-_R2Kgd/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537159405667	Marionette	INFO	Stopped listening on port 41035
+1537164265256	geckodriver	INFO	geckodriver 0.21.0
+1537164265262	geckodriver	INFO	Listening on 127.0.0.1:43031
+1537164266263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.r9szphwxDzsb"
+1537164269458	Marionette	INFO	Listening on port 42057
+1537164269481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537164269551	Marionette	DEBUG	[2147483649] Frame script loaded
+1537164269560	Marionette	DEBUG	[2147483649] Frame script registered
+1537164269601	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537164272400	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537164273396	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.applebees.com/en/locations
+1537164273401	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+JavaScript error: resource:///modules/ContentMetaHandler.jsm, line 156: NS_ERROR_ILLEGAL_VALUE: 
+1537164275166	Marionette	INFO	Stopped listening on port 42057
+1537164297634	geckodriver	INFO	geckodriver 0.21.0
+1537164297641	geckodriver	INFO	Listening on 127.0.0.1:60699
+1537164298639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.G82IS8YFmxGf"
+1537164301979	Marionette	INFO	Listening on port 39485
+1537164302056	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537164302132	Marionette	DEBUG	[2147483649] Frame script loaded
+1537164302154	Marionette	DEBUG	[2147483649] Frame script registered
+1537164302200	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1537164304415	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1537164304415	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1537164304416	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1537164304438	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1588
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1724
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+[Parent 12763, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-_R2Kgd/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537164305853	Marionette	INFO	Stopped listening on port 39485
